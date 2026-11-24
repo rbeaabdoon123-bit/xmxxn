@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 # ضع توكن البوت بين علامتي الاقتباس أدناه.
 # الأفضل استخدام GitHub Secret باسم BOT_TOKEN بدلاً من كتابة التوكن هنا.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "اكتب_توكن_البوت_هنا")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9063389269:AAHvZP5Uc_bBwJjXv8_5yAWfJ9icDlRy81o")
 
 API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 MAX_BYTES = 45 * 1024 * 1024  # حد تقريبي لتجنب تجاوز حد رفع Telegram Bot API
